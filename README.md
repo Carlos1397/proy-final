@@ -1,4 +1,4 @@
-# proy-final
+# proy-final->AFP
 AFP
 Funcionalidades del sistema
 * El sistema debe manejar la información de los clientes de las principales AFPS.
@@ -24,4 +24,7 @@ mensaje “No se puede registrar la solicitud. Monto mayor que el permitido”.
 Caso contrario mostrar un mensaje “Monto mínimo no cubierto por favor revise el
 monto mínimo a retirar”
 
-![image](https://user-images.githubusercontent.com/56085495/171064720-15d509d1-b228-4172-9de7-743915fd51ac.png)
+1. "Diagram E.R" :
+![image](https://user-images.githubusercontent.com/56085495/171065402-3ba9d3e0-2f22-4e2d-93e2-4e148c0370cb.png)
+
+
