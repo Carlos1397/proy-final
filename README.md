@@ -23,7 +23,8 @@ mensaje “No se puede registrar la solicitud. Monto mayor que el permitido”.
 * Los montos para retirar deben de ser mayores al 50% del monto enviado por la AFP.
 Caso contrario mostrar un mensaje “Monto mínimo no cubierto por favor revise el
 monto mínimo a retirar”
-
+* Thunder Client: :postbox: https://www.thunderclient.com/ 
+* Moon Modeler: :page_facing_up: https://www.datensen.com/blog/docs/postgresql-database-design/
 1. "Diagram E.R" :
 ![image](https://user-images.githubusercontent.com/56085495/171065402-3ba9d3e0-2f22-4e2d-93e2-4e148c0370cb.png)
 
