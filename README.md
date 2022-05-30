@@ -1,4 +1,4 @@
-# proy-final->AFP
+# proy-final-AFP
 AFP
 Funcionalidades del sistema
 * El sistema debe manejar la información de los clientes de las principales AFPS.
