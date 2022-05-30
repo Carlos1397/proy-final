@@ -1,0 +1,298 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Proyect final",
+    "dateExported": "2022-05-30T21:05:21.451Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "c3add97e-68a1-4f13-b973-58847ca9997e",
+            "name": "Client",
+            "containerId": "",
+            "created": "2022-05-30T02:55:10.497Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "8a2d9cbb-90db-4d3b-b2ca-a5349b0ff799",
+            "name": "AFP",
+            "containerId": "",
+            "created": "2022-05-30T04:24:49.824Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "f5abd780-dac7-41fa-aa6f-45b01f1a6ac0",
+            "name": "Association AFP",
+            "containerId": "",
+            "created": "2022-05-30T05:38:42.473Z",
+            "sortNum": 30000
+        },
+        {
+            "_id": "e514c7db-3666-4830-a644-fbd923c08d88",
+            "name": "Removal AFP",
+            "containerId": "",
+            "created": "2022-05-30T16:57:14.549Z",
+            "sortNum": 40000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "af36bec4-a23a-4a75-a49a-d92a3254f6a6",
+            "colId": "d3a23bf2-5454-4931-98d8-aa8f2e728835",
+            "containerId": "c3add97e-68a1-4f13-b973-58847ca9997e",
+            "name": "Update Client",
+            "url": "http://localhost:8080/client/update",
+            "method": "PUT",
+            "sortNum": 10000,
+            "created": "2022-05-30T02:54:09.521Z",
+            "modified": "2022-05-30T04:50:33.622Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"id\": \"8\",\n    \"name\": \"Diego CG\",\n    \"lastName\":\"Chavez\",\n    \"dni\":\"77859454\",\n    \"email\": \"diego@gmail.com\",\n    \"phone\": \"930406859\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "e14b94f4-eb74-4d7a-9a49-7b0c19b8f3f4",
+            "colId": "d3a23bf2-5454-4931-98d8-aa8f2e728835",
+            "containerId": "8a2d9cbb-90db-4d3b-b2ca-a5349b0ff799",
+            "name": "Update AFP",
+            "url": "http://localhost:8080/afp/update/",
+            "method": "PUT",
+            "sortNum": 10000,
+            "created": "2022-05-30T04:24:49.824Z",
+            "modified": "2022-05-30T04:48:41.288Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"id\":1,\n    \"type\": \"PRIMA\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "6c289372-6267-49e0-8ed6-ec65730776f8",
+            "colId": "d3a23bf2-5454-4931-98d8-aa8f2e728835",
+            "containerId": "c3add97e-68a1-4f13-b973-58847ca9997e",
+            "name": "Create Client",
+            "url": "http://localhost:8080/client/create",
+            "method": "POST",
+            "sortNum": 15000,
+            "created": "2022-05-30T03:25:13.594Z",
+            "modified": "2022-05-30T06:26:36.917Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"name\": \"Carlos z\",\n    \"lastName\":\"Viera\",\n    \"dni\":\"77859444\",\n    \"email\": \"viera@gmail.com\",\n    \"phone\": \"920406859\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "4971df5c-7f2d-4676-b486-83296b82afde",
+            "colId": "d3a23bf2-5454-4931-98d8-aa8f2e728835",
+            "containerId": "8a2d9cbb-90db-4d3b-b2ca-a5349b0ff799",
+            "name": "Create AFP",
+            "url": "http://localhost:8080/afp/create",
+            "method": "POST",
+            "sortNum": 15000,
+            "created": "2022-05-30T04:24:49.825Z",
+            "modified": "2022-05-30T17:53:52.020Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"type\": \"HABITAT\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "80f1a844-2388-4295-82dd-dd0d86da753a",
+            "colId": "d3a23bf2-5454-4931-98d8-aa8f2e728835",
+            "containerId": "c3add97e-68a1-4f13-b973-58847ca9997e",
+            "name": "All Client",
+            "url": "http://localhost:8080/client/all",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2022-05-30T02:55:30.604Z",
+            "modified": "2022-05-30T02:55:44.480Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "7efdfbb1-7941-4027-aae2-bdeb05d43bab",
+            "colId": "d3a23bf2-5454-4931-98d8-aa8f2e728835",
+            "containerId": "8a2d9cbb-90db-4d3b-b2ca-a5349b0ff799",
+            "name": "All AFP",
+            "url": "http://localhost:8080/afp/all",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2022-05-30T04:24:49.826Z",
+            "modified": "2022-05-30T04:26:25.538Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "697f60de-30ca-4fcb-96d4-4098bee5d2cc",
+            "colId": "d3a23bf2-5454-4931-98d8-aa8f2e728835",
+            "containerId": "c3add97e-68a1-4f13-b973-58847ca9997e",
+            "name": "One Client",
+            "url": "http://localhost:8080/client/6",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2022-05-30T03:11:17.243Z",
+            "modified": "2022-05-30T04:04:55.069Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "d2d552bc-a2f5-48ca-a7ab-92869947b651",
+            "colId": "d3a23bf2-5454-4931-98d8-aa8f2e728835",
+            "containerId": "8a2d9cbb-90db-4d3b-b2ca-a5349b0ff799",
+            "name": "One AFP",
+            "url": "http://localhost:8080/client/6",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2022-05-30T04:24:49.827Z",
+            "modified": "2022-05-30T04:24:49.824Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "31c2ee6a-3e10-4efd-af50-f85db229c09a",
+            "colId": "d3a23bf2-5454-4931-98d8-aa8f2e728835",
+            "containerId": "c3add97e-68a1-4f13-b973-58847ca9997e",
+            "name": "One Client",
+            "url": "http://localhost:8080/client/?dni=77859444",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2022-05-30T03:53:51.597Z",
+            "modified": "2022-05-30T16:31:12.525Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [
+                {
+                    "name": "dni",
+                    "value": "77859444",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "b0d16dc1-a3a8-4265-b1fc-e9f2d673db1e",
+            "colId": "d3a23bf2-5454-4931-98d8-aa8f2e728835",
+            "containerId": "8a2d9cbb-90db-4d3b-b2ca-a5349b0ff799",
+            "name": "One AFP",
+            "url": "http://localhost:8080/afp?id=1",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2022-05-30T04:24:49.828Z",
+            "modified": "2022-05-30T04:44:40.966Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "1",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "9aad5525-919c-42ca-a817-c0cb6c5d81bf",
+            "colId": "d3a23bf2-5454-4931-98d8-aa8f2e728835",
+            "containerId": "f5abd780-dac7-41fa-aa6f-45b01f1a6ac0",
+            "name": "Create Association",
+            "url": "http://localhost:8080/afp/linkClient",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2022-05-30T14:49:27.210Z",
+            "modified": "2022-05-30T17:54:06.323Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"accountNumber\":\"256895885847\",\n    \"dateWithdrawal\": \"2022-05-30 22:22:00\",\n    \"availableAmount\": 2000.25,\n    \"client\":{\n    \"id\": 1,\n    \"name\": \"Carlos z\",\n    \"lastName\": \"Viera\",\n    \"dni\": \"77859444\",\n    \"email\": \"viera@gmail.com\",\n    \"phone\": \"920406859\"\n  },\n  \"afp\":{\n    \"id\": 1,\n    \"type\": \"HABITAT\"\n  }\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "e91153d5-c01a-4051-adac-36761d37be55",
+            "colId": "d3a23bf2-5454-4931-98d8-aa8f2e728835",
+            "containerId": "e514c7db-3666-4830-a644-fbd923c08d88",
+            "name": "Create Removal AFP",
+            "url": "http://localhost:8080/afp/removalAfp",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2022-05-30T16:57:14.549Z",
+            "modified": "2022-05-30T17:57:49.043Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"withdrawalAmount\":5000.125,\r\n  \"association\": {\r\n    \"id\": 1,\r\n    \"client\": {\r\n      \"id\": 1,\r\n      \"name\": \"Carlos z\",\r\n      \"lastName\": \"Viera\",\r\n      \"dni\": \"77859444\",\r\n      \"email\": \"viera@gmail.com\",\r\n      \"phone\": \"920406859\"\r\n    },\r\n    \"afp\": {\r\n      \"id\": 1,\r\n      \"type\": \"HABITAT\"\r\n    },\r\n    \"availableAmount\": 2000.25,\r\n    \"dateWithdrawal\": \"2022-05-30 22:22:00\",\r\n    \"accountNumber\": \"256895885847\"\r\n  }\r\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
